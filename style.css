@@ -1,0 +1,55 @@
+.galery{
+    
+    width: 100vw;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+.img{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-radius: 50px; 
+    transition: 1s;
+}
+div img{
+    height: 100%;   
+}
+
+.galery div{
+    width: 5vw;
+    cursor: pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+
+}
+h1{
+    display: none;
+}
+img.active{
+    width: 100%;
+}
+.img.active{
+    
+    width: 60%;
+    transition: 1s;
+}
+.galery .img h1{
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    top: 90%;
+    background-size: 0px;
+    transition: 1s;
+    font-family: sans-serif;
+}
+h1.active{
+    display: block;
+    transition: 1s;
+    color: white;
+}
